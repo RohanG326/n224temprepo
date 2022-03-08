@@ -127,3 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+### Exclude IntelliJ IDEA from GitHub ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.xml
+node_modules
+/node_modules/.package-lock.json
+/static/scss/custom.css.map
+/package.json
+/package-lock.json
