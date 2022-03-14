@@ -22,7 +22,7 @@ Digital Divide:
 - Demographic
 - Age
 - Religion
-- Countries
+- Countries  
 In some countries:
 - Computers are not that common in rural areas
 - Only a small number of websites
