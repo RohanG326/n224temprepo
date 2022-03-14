@@ -1,7 +1,6 @@
-"""
-Introduction to Console Programming
-Writing a function to print a menu
-"""
+from swap import swap
+from matrix import test_matrices
+from ship import ship
 
 
 # Menu options in print statement
@@ -18,7 +17,10 @@ menu_options = {
     1: 'Stringy',
     2: 'Numby',
     3: 'Listy',
-    4: 'Exit',
+    4: 'Swap',
+    5: 'Matrix',
+    6: 'Ship',
+    7: 'Exit'
 }
 
 # Print menu options from dictionary key/value pair
@@ -39,21 +41,29 @@ def numby():
 def listy():
     print('You chose \'3 - Listy\'')
 
-
 # call functions based on input choice
 def runOptions():
     # infinite loop to accept/process user menu choice
     while True:
         try:
-            option = int(input('Enter your choice 1-4: '))
+            option = int(input('Enter your choice 1-6: '))
             if option == 1:
                 stringy()
             elif option == 2:
                 numby()
             elif option == 3:
                 listy()
-            # Exit menu
             elif option == 4:
+                input1 = input("first age")
+                input2 = input("second age")
+                a, b = swap(input1, input2)
+                print(a, b)
+            # Exit menu
+            elif option == 5:
+                test_matrices()
+            elif option == 6:
+                ship()
+            elif option == 7:
                 print('Exiting! Thank you! Good Bye...')
                 exit() # exit out of the (infinite) while loop
             else:
@@ -62,5 +72,4 @@ def runOptions():
             print('Invalid input. Please enter an integer input.')
 
 if __name__=='__main__':
-    # print_menu1()
     print_menu2()
