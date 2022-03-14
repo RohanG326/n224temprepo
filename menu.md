@@ -1,3 +1,5 @@
+{% includes navigation.html %}
+
 from swap import swap
 from matrix import test_matrices
 from ship import ship
