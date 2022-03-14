@@ -7,7 +7,7 @@
 - Some effects are harmful
 - One thing can have two different effects based on how it is used
 - For example, wii controllers get people active while playing video games, but could cause damages
-- Flowcharts before making a procedure can help find out beneficial and harmful effects of computing
+- Flowcharts before making a procedure can help find out beneficial and harmful effects of computing  
 **Come up with three of your own Beneficial and corresponding Harmful Effects of Computing**   
 Three beneficial effects of computing is simplicity. Computing makes people's lives easier and richer, with a vast amount of content and internet at everyone's fingertips. Applications are communicating and staying in touch with people from large distances away, online transactions and banking that is super convenient. 
 
@@ -27,7 +27,7 @@ In some countries:
 - Computers are not that common in rural areas
 - Only a small number of websites
 - The internet is used to protect and advocate the government
-- There is a high level of surveillance on the internet to protect the government
+- There is a high level of surveillance on the internet to protect the government  
 
 **How does someone empower themself in a digital world?**
 In a digital world, one empowers themselves by using their voice. With social media on the rise and more opinions being shared, it provides a platform for information to get out. This can empower all types of people with different experiences to share their story and their voice, making the digital world more accessible for all. Before, leaders and empowered people had to physically give speeches and gain influence over time, in contrast to nowadays.
