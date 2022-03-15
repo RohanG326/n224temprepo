@@ -1,6 +1,6 @@
 {% include navigation.html %}
 
-<iframe src="https://replit.com/@RohanG326/trimester3personalrepo?embed?lite=true></iframe>
+<iframe src="https://replit.com/@RohanG326/trimester3personalrepo?embed=true#.replit" width=800 height=800></iframe>
 
 ![image](https://user-images.githubusercontent.com/89225438/158246149-8ae7b927-beeb-437c-b19c-40595d1a0431.png)
 
