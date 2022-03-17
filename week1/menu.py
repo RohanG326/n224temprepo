@@ -1,22 +1,13 @@
 from swap import swap
 from matrix import test_matrices
 from ship import ship
-from palindrome import Palindrome1
-
-
-# Menu options in print statement
-def print_menu1():
-    print('1 -- Stringy' )
-    print('2 -- Numby' )
-    print('3 -- Listy' )
-    print('4 -- Exit' )
-    runOptions()
-
+from palindrome import palindromefunction
+from tree import tree
 
 # Menu options as a dictionary
 menu_options = {
     1: 'Palindrome',
-    2: 'Numby',
+    2: 'Tree',
     3: 'Listy',
     4: 'Swap',
     5: 'Matrix',
@@ -45,9 +36,9 @@ def runOptions():
         try:
             option = int(input('Enter your choice 1-6: '))
             if option == 1:
-                Palindrome1()
+                palindromefunction()
             elif option == 2:
-                numby()
+                tree()
             elif option == 3:
                 listy()
             elif option == 4:
