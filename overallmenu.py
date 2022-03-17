@@ -2,14 +2,16 @@ from week1.swap import swapfunction
 from week1.matrix import test_matrices
 from week1.ship import ship
 from week1.palindrome import palindromefunction
+from week1.tree import tree
 from week2.factorial import factfunction
+
 
 
 # Menu options as a dictionary
 menu_options = {
     1: 'Palindrome',
     2: 'Factorial',
-    3: 'Listy',
+    3: 'Tree',
     4: 'Swap',
     5: 'Matrix',
     6: 'Ship',
@@ -37,7 +39,7 @@ def runOptions():
             elif option == 2:
                 factfunction()
             elif option == 3:
-                listy()
+                tree()
             elif option == 4:
                 swapfunction()
             elif option == 5:
