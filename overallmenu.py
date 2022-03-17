@@ -1,22 +1,14 @@
-from swap import swap
-from matrix import test_matrices
-from ship import ship
-from palindrome import Palindrome1
-
-
-# Menu options in print statement
-def print_menu1():
-    print('1 -- Stringy' )
-    print('2 -- Numby' )
-    print('3 -- Listy' )
-    print('4 -- Exit' )
-    runOptions()
+from week1.swap import swapfunction
+from week1.matrix import test_matrices
+from week1.ship import ship
+from week1.palindrome import palindromefunction
+from week2.factorial import factfunction
 
 
 # Menu options as a dictionary
 menu_options = {
     1: 'Palindrome',
-    2: 'Numby',
+    2: 'Factorial',
     3: 'Listy',
     4: 'Swap',
     5: 'Matrix',
@@ -25,14 +17,10 @@ menu_options = {
 }
 
 # Print menu options from dictionary key/value pair
-def print_menu2():
+def menu():
     for key in menu_options.keys():
         print(key, '--', menu_options[key] )
     runOptions()
-
-# menu option 2
-def numby():
-    print('You chose \' 2 - Numby\'')
 
 # menu option 3
 def listy():
@@ -45,17 +33,13 @@ def runOptions():
         try:
             option = int(input('Enter your choice 1-6: '))
             if option == 1:
-                Palindrome1()
+                palindromefunction()
             elif option == 2:
-                numby()
+                factfunction()
             elif option == 3:
                 listy()
             elif option == 4:
-                input1 = input("first age")
-                input2 = input("second age")
-                a, b = swap(input1, input2)
-                print(a, b)
-            # Exit menu
+                swapfunction()
             elif option == 5:
                 test_matrices()
             elif option == 6:
@@ -69,4 +53,4 @@ def runOptions():
             print('Invalid input. Please enter an integer input.')
 
 if __name__=='__main__':
-    print_menu2()
+    menu()
