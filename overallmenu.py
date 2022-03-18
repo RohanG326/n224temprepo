@@ -4,10 +4,8 @@ from week1.ship import ship
 from week1.palindrome import palindromefunction
 from week1.tree import tree
 from week2.factorial import factfunction
+from week2.fibonacci import fibonaccifunction
 
-
-
-# Menu options as a dictionary
 menu_options = {
     1: 'Palindrome',
     2: 'Factorial',
@@ -15,25 +13,22 @@ menu_options = {
     4: 'Swap',
     5: 'Matrix',
     6: 'Ship',
-    7: 'Exit'
+    7: 'Fibonacci',
+    8: 'Exit'
 }
 
 # Print menu options from dictionary key/value pair
-def menu():
+def overallmenu():
     for key in menu_options.keys():
         print(key, '--', menu_options[key] )
     runOptions()
-
-# menu option 3
-def listy():
-    print('You chose \'3 - Listy\'')
 
 # call functions based on input choice
 def runOptions():
     # infinite loop to accept/process user menu choice
     while True:
         try:
-            option = int(input('Enter your choice 1-6: '))
+            option = int(input('Enter your choice 1-8: '))
             if option == 1:
                 palindromefunction()
             elif option == 2:
@@ -47,6 +42,8 @@ def runOptions():
             elif option == 6:
                 ship()
             elif option == 7:
+                fibonaccifunction()
+            elif option == 8:
                 print('Exiting! Thank you! Good Bye...')
                 exit() # exit out of the (infinite) while loop
             else:
@@ -55,4 +52,4 @@ def runOptions():
             print('Invalid input. Please enter an integer input.')
 
 if __name__=='__main__':
-    menu()
+    overallmenu()
