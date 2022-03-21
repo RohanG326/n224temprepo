@@ -66,13 +66,14 @@ Questions to ask about bias:
 Enhancing or intentionally excluding?
 Intentionally harmful/hateful?
 Receiving feedback from a wide variety of people?
-Google Home / Amazon Echo
+Google Home / Amazon Echo  
 **GitHub Pages Actions. Break out into Study Groups of 2 or 3**
-- Does the owner of the computer think this was intentional?
-- How do you think this happened?
 - Is this harmful? Was it intended to be harmful or exclude?
+- Although it was not intended, it is harmful, because introducing this bias is dangerous overall.
 - Should it be corrected?
+- It should be corrected, because otherwise, it is demonstrating that people of color don't have the same equality as white people.
 - What would you or should you do to produce a better outcome?
+- To produce a better outcome, I would test by using different demographics to recognize all ethnicities and people to include them.
 
 ## 5.4  
 ### Notes  
