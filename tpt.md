@@ -35,3 +35,54 @@ In a digital world, one empowers themselves by using their voice. With social me
 We can increase their access to the internet. If empowerment is done by speaking on the internet, giving more and more people internet access and reducing the digital divide can help empower people that otherwise cannot use their voice. At Del Norte, I can help promote people to use their voice and advocate around the school, empowering groups of people to live more empowered lives.
 **Is paper or red tape blocking digital empowerment? Are there such barriers at Del Norte? Elsewhere?**
 Not much, nowadays. The internet stays fairly free of government entanglement, where people can relatively do what they want and say what they want under the first amendment. At Del Norte, it is slightly different, because we sign a social contract reducing our rights in exchange for a safe and better school environment. I think this is not a bad thing though, because the information that deserves to get out will still get out regardless.
+  
+## 5.3  
+### Notes  
+Netflix
+- Explicit Data
+- Thumbs
+- Name, address, etc
+- Implicit Data
+- When you watch
+- What you binge(d)
+- Style of show frequently selected
+Bias
+- Netflix exclusives are featured ahead of most
+- Subscriptions
+Hypothetical Loan Company
+Creating software to assist loan officers
+Find trends in successful loans
+Reject those who don’t fit their trends:
+Age
+Gender 
+Race/Ethnicity
+Biases can be embedded all at levels of software development.
+All software can be biased (unintentional/intentional):
+Casual vs Sweaty
+Youtube Kids
+Facebook vs Instagram vs Snapchat/Tiktok
+WeChat / KakaoTalk
+Questions to ask about bias:
+Enhancing or intentionally excluding?
+Intentionally harmful/hateful?
+Receiving feedback from a wide variety of people?
+Google Home / Amazon Echo  
+**GitHub Pages Actions. Break out into Study Groups of 2 or 3**
+- Is this harmful? Was it intended to be harmful or exclude?
+- Although it was not intended, it is harmful, because introducing this bias is dangerous overall.
+- Should it be corrected?
+- It should be corrected, because otherwise, it is demonstrating that people of color don't have the same equality as white people.
+- What would you or should you do to produce a better outcome?
+- To produce a better outcome, I would test by using different demographics to recognize all ethnicities and people to include them.
+
+## 5.4  
+### Notes  
+Crowdsourcing
+- sourcing data from crowds of people
+- easier way to obtain data without taking a large amount of time or too much error
+- still has a larger margin of error than sourcing data individually
+### Actions
+**CompSci has 150 principles students. Describe a crowdsource idea and how you might initiate it in our environment?**  
+- A crowdsource project with cs students could be a huge mega repository, where everyone makes code and features on a forked repo, then all send merge requests to create one big ultimate project. Maybe as a post-ap exam fun mini project. I could send a slack message in announcements, and get it going with the teachers, so everyone can just make new files and push to the original branch.  
+**What about Del Norte crowdsourcing? Could your final project be better with crowdsourcing?**  
+- At Del Norte, for my own project, I could crowdsource by using surveys and gathering data about how our project looks, feels, and runs to make it better. We could crowdsource data in the form of feedback and apply it to our project.
