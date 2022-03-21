@@ -5,51 +5,106 @@ from week1.palindrome import palindromefunction
 from week1.tree import tree
 from week2.factorial import factfunction
 from week2.fibonacci import fibonaccifunction
+from week2.infodb import infoDB
+from rohan import aboutme
 
-menu_options = {
-    1: 'Palindrome',
-    2: 'Factorial',
-    3: 'Tree',
-    4: 'Swap',
-    5: 'Matrix',
-    6: 'Ship',
-    7: 'Fibonacci',
-    8: 'Exit'
-}
+# Main list of [Prompts, Actions]
+# Two styles are supported to execute abstracted logic
+# 1. file names will be run by exec(open("filename.py").read())
+# 2. function references will be executed directly file.function()
+main_menu = [
+    ["About Me", aboutme],
+    ["About Me2", aboutme],
+    ["About Me3", aboutme],
+]
 
-# Print menu options from dictionary key/value pair
-def overallmenu():
-    for key in menu_options.keys():
-        print(key, '--', menu_options[key] )
-    runOptions()
+# Submenu list of [Prompt, Action]
+# Works similarly to main_menu
+sub_menu = [
+    ["Swap", swapfunction],
+    ["Palindrome", palindromefunction],
+    ["Ship", ship],
+    ["Tree", tree],
+    ["Matrix", test_matrices]
+]
 
-# call functions based on input choice
-def runOptions():
-    # infinite loop to accept/process user menu choice
-    while True:
+week_2_sub_menu = [
+    ["Factorial", factfunction],
+    ["Fibonacci", fibonaccifunction],
+    ["InfoDB", infoDB],
+]
+
+# Menu banner is typically defined by menu owner
+border = "=" * 25
+banner = f"\n{border}\nPlease Select An Option\n{border}"
+
+# def menu
+# using main_menu list:
+# 1. main menu and submenu reference are created [Prompts, Actions]
+# 2. menu_list is sent as parameter to menuy.menu function that has logic for menu control
+def menu():
+    title = "Function Menu" + banner
+    menu_list = main_menu.copy()
+    menu_list.append(["Week 1", submenu])
+    menu_list.append(["Week 2", week2_submenu])
+    buildMenu(title, menu_list)
+
+# def submenu
+# using sub menu list above:
+# sub_menu works similarly to menu()
+def submenu():
+    title = "Function Submenu" + banner
+    buildMenu(title, sub_menu)
+
+def week2_submenu():
+    title = "Function Submenu" + banner
+    buildMenu(title, week_2_sub_menu)
+
+def buildMenu(banner, options):
+    # header for menu
+    print(banner)
+    # build a dictionary from options
+    prompts = {0: ["Exit", None]}
+    for op in options:
+        index = len(prompts)
+        prompts[index] = op
+
+    # print menu or dictionary
+    for key, value in prompts.items():
+        print(key, '->', value[0])
+
+    # get user choice
+    choice = input("Type your choice> ")
+
+    # validate choice and run
+    # execute selection
+    # convert to number
+    try:
+        choice = int(choice)
+        if choice == 0:
+            # stop
+            return
         try:
-            option = int(input('Enter your choice 1-8: '))
-            if option == 1:
-                palindromefunction()
-            elif option == 2:
-                factfunction()
-            elif option == 3:
-                tree()
-            elif option == 4:
-                swapfunction()
-            elif option == 5:
-                test_matrices()
-            elif option == 6:
-                ship()
-            elif option == 7:
-                fibonaccifunction()
-            elif option == 8:
-                print('Exiting! Thank you! Good Bye...')
-                exit() # exit out of the (infinite) while loop
-            else:
-                print('Invalid option. Please enter a number between 1 and 4.')
-        except ValueError:
-            print('Invalid input. Please enter an integer input.')
+            # try as function
+            action = prompts.get(choice)[1]
+            action()
+        except TypeError:
+            try:  # try as playground style
+                exec(open(action).read())
+            except FileNotFoundError:
+                print(f"File not found!: {action}")
+            # end function try
+        # end prompts try
+    except ValueError:
+        # not a number error
+        print(f"Not a number: {choice}")
+    except UnboundLocalError:
+        # traps all other errors
+        print(f"Invalid choice: {choice}")
+    # end validation try
 
-if __name__=='__main__':
-    overallmenu()
+    buildMenu(banner, options)  # recursion, start menu over again
+
+
+if __name__ == "__main__":
+    menu()

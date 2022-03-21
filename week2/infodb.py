@@ -48,7 +48,7 @@ def recursive_loop(n):
         recursive_loop(n + 1)
     return
 
-def tester():
+def infoDB():
     print("For loop")
     for_loop()
     print("While loop")
@@ -57,5 +57,5 @@ def tester():
     recursive_loop(0)  # requires initial index to start recursion
 
 if __name__ == "__main__":
-    tester()
+    infoDB()
 
