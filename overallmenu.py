@@ -6,16 +6,10 @@ from week1.tree import tree
 from week2.factorial import factfunction
 from week2.fibonacci import fibonaccifunction
 from week2.infodb import infoDB
-from rohan import aboutme
+from main import aboutme
 
-# Main list of [Prompts, Actions]
-# Two styles are supported to execute abstracted logic
-# 1. file names will be run by exec(open("filename.py").read())
-# 2. function references will be executed directly file.function()
 main_menu = [
     ["About Me", aboutme],
-    ["About Me2", aboutme],
-    ["About Me3", aboutme],
 ]
 
 # Submenu list of [Prompt, Action]
@@ -38,10 +32,6 @@ week_2_sub_menu = [
 border = "=" * 25
 banner = f"\n{border}\nPlease Select An Option\n{border}"
 
-# def menu
-# using main_menu list:
-# 1. main menu and submenu reference are created [Prompts, Actions]
-# 2. menu_list is sent as parameter to menuy.menu function that has logic for menu control
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
