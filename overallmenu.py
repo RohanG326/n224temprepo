@@ -28,9 +28,9 @@ sub_menu1 = [
 
 sub_menu2 = [
     ["Palindrome Class", palindromefunction],
-    ["Factorial Class", factclass()],
+    ["Factorial Class", factclass],
     ["Factorial Imperative", factfunction],
-    ["Fibonacci Class", fibclass()],
+    ["Fibonacci Class", fibclass],
     ["Fibonacci Imperative", fibonaccifunction],
 ]
 
