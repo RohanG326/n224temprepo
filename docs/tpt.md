@@ -89,23 +89,23 @@ Crowdsourcing
 
 ## 5.5 Tech Talk Notes  
 ### Notes:  
-- There are multiple different types of licenses that you can have on your projects, that control who is allowed to use, and how they can use your work, and also control how you can use other people's work. The license something has also determines in what ways things are allowed to be used, such as for provate purposes or for commerical use, or if they are used, what percent of profits must go to the original creator. All of these things are important when determining what license to use.
+- Many licenses. If in code you use an open license, then anyone can take your code for themselves even to make a profit.
 
-- When you create a GitHub repository it requests a license type. Review the license types in relationship to this Tech Talk and make some notes in GitHub pages.
-Licenses like Open Sourse MIT License allow people to use the code freely and distribute close source versions of the code. Another type of license, the open source GPL license lets people do pretty much the same thing as the open source MIT, but it doesnt allow disttibuting closed source versions.
+**When you create a GitHub repository it requests a license type. Review the license types in relationship to this Tech Talk and make some notes in GitHub pages.**
+Open Source MIT is open but reserves rihts. GNU licenses are completely open.
 
 - Make a license for your personal and Team project. Document license you picked and why.
-The license that we chose for our personal team project was the GPL-3.0 License. We picked this liecnese because it allows for commerical use and private use alike, as well as distribution.
+The license that we chose for our personal team project was the GPL-3.0 License. We picked this license because it allows for commerical use and private use alike, as well as distribution.
 
 ## 5.6 Tech Talk Notes
 ### Notes:
-- It is very important to stay safe on the internet. This means protecting your information and your personal data. Some things you choose to put on the internet, like your name, email/contact info, college/eductation. Others are a gray area, like birthplace, adress, phone number. Others however, are things you absolutely should not share with anybody, like financials, passwords, social security number.
+- Protect your personal information on the internet. Many people can find it in different ways.
 
 **Describe PII you have seen on project in CompSci Principles.**
 PII that I have seen in computer science principles is our names, our schools, interests, and possible contact information. This is mostly off our about pages, which were on last tris project.
 
 **What are your feelings about PII and your exposure?**
-PII is a scary thought, as almost anybody on the internet can find out anything about you, but if you protect yourself and take the necesary steps to protect your information, it can be fine. PII can also be helpful, such as if you want to get in contact with somebody over the internet, say to work on a project.
+Scary but beneficial to know about it to prevent anything bad from happening
 
 **Describe good and bad passwords? What is another step that is used to assist in authentication.**
 Good passwords use letters, capitals, symbols, numbers, and specical characters, while bad passwords are simple, easy to guess. Multifactor authentication is one way to create a more safe login, becuase it requires two forms of authentication before letting somebody access information/data.
