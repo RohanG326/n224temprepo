@@ -1,32 +1,39 @@
+from main import aboutme
 from week1.swap import swapfunction
 from week1.matrix import test_matrices
 from week1.ship import ship
-from week1.palindrome import palindromefunction
 from week1.tree import tree
 from week2.factorial import factfunction
 from week2.fibonacci import fibonaccifunction
 from week2.infodb import infoDB
-from main import aboutme
+from week3.challenge import timestable
+from week3.factclass import factclass
+from week3.fibclass import fibclass
+from week3.palindrome import palindromefunction
 
 main_menu = [
     ["About Me", aboutme],
+    ["InfoDB", infoDB],
+    ["Swap", swapfunction],
 ]
 
 # Submenu list of [Prompt, Action]
 # Works similarly to main_menu
-sub_menu = [
-    ["Swap", swapfunction],
-    ["Palindrome", palindromefunction],
+sub_menu1 = [
     ["Ship", ship],
     ["Tree", tree],
-    ["Matrix", test_matrices]
+    ["Matrix", test_matrices],
+
 ]
 
-week_2_sub_menu = [
-    ["Factorial", factfunction],
-    ["Fibonacci", fibonaccifunction],
-    ["InfoDB", infoDB],
+sub_menu2 = [
+    ["Palindrome Class", palindromefunction],
+    ["Factorial Class", factclass()],
+    ["Factorial Imperative", factfunction],
+    ["Fibonacci Class", fibclass()],
+    ["Fibonacci Imperative", fibonaccifunction],
 ]
+
 
 # Menu banner is typically defined by menu owner
 border = "=" * 25
@@ -35,20 +42,20 @@ banner = f"\n{border}\nPlease Select An Option\n{border}"
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Week 1", submenu])
-    menu_list.append(["Week 2", week2_submenu])
+    menu_list.append(["Designs", submenu1])
+    menu_list.append(["Patterns", submenu2])
     buildMenu(title, menu_list)
 
 # def submenu
 # using sub menu list above:
 # sub_menu works similarly to menu()
-def submenu():
+def submenu1():
     title = "Function Submenu" + banner
-    buildMenu(title, sub_menu)
+    buildMenu(title, sub_menu1)
 
-def week2_submenu():
+def submenu2():
     title = "Function Submenu" + banner
-    buildMenu(title, week_2_sub_menu)
+    buildMenu(title, sub_menu2)
 
 def buildMenu(banner, options):
     # header for menu

@@ -53,19 +53,16 @@ class Palindrome:
     def analysis(self):
         return self._analysis
 
-if __name__ == "__main__":
-    n = ["a toyota", "racecar", "banana"]
-    for i in n:
-        palindrome = Palindrome(i)
-        print(f"Checking: {i} = {palindrome.isPalindrome}")
-
-    if __name__ == "__main__":
-        n = input("put value here")
-    palindrome = Palindrome(n)
-    print(f"Checking: {n} = {palindrome.isPalindrome}")
-
-
 def palindromefunction():
     n = input("check if it is a palindrome")
     palindrome = Palindrome(n)
     print(f"Checking: {n} = {palindrome.isPalindrome}")
+
+def tester():
+    n = ["A man, a plan, a canal -- Panama!"]
+    for i in n:
+        palindrome = Palindrome(i)
+        print(f"Checking: {i} = {palindrome.isPalindrome}")
+
+if __name__ == "__main__":
+    tester()
