@@ -46,6 +46,10 @@ sub_menu2 = [
 
 
 # Menu banner is typically defined by menu owner
+border = u"\033[1;32;40m"
+submenu1 = u"\033[1;32;40m"
+submenu2 = u"\033[1;32;40m"
+
 border = "=" * 25
 banner = f"\n{border}\nPlease Select An Option\n{border}"
 
@@ -56,9 +60,18 @@ def menu():
     menu_list.append(["Patterns", submenu2])
     buildMenu(title, menu_list)
 
+
+
+
+  
 # def submenu
 # using sub menu list above:
 # sub_menu works similarly to menu()
+
+
+
+
+  
 def submenu1():
     title = "Function Submenu" + banner
     buildMenu(title, sub_menu1)
