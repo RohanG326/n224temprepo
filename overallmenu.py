@@ -11,7 +11,7 @@ from week3.factclass import factclass
 from week3.fibclass import fibclass
 from week3.palindrome import palindromefunction
 from week4.coinflip import flip
-
+from week4.logiccircuts import logic
 
 
 
@@ -20,6 +20,9 @@ main_menu = [
     ["InfoDB", infoDB],
     ["Swap", swapfunction],
     ["Coin Flip", flip],
+    ["Logic Gate", logic],
+
+
 
 ]
 
