@@ -10,11 +10,17 @@ from week3.challenge import timestable
 from week3.factclass import factclass
 from week3.fibclass import fibclass
 from week3.palindrome import palindromefunction
+from week4.coinflip import flip
+
+
+
 
 main_menu = [
     ["About Me", aboutme],
     ["InfoDB", infoDB],
     ["Swap", swapfunction],
+    ["Coin Flip", flip],
+
 ]
 
 # Submenu list of [Prompt, Action]
@@ -32,6 +38,7 @@ sub_menu2 = [
     ["Factorial Imperative", factfunction],
     ["Fibonacci Class", fibclass],
     ["Fibonacci Imperative", fibonaccifunction],
+
 ]
 
 
