@@ -1,6 +1,7 @@
 {% include navigation.html %}
 
 # Create Task Plan
+[Video](https://www.loom.com/share/0fc21c7726b5472e9825737f7c61e5ec)
 Description:
 We have a class, with objects as trivia, and the attributes are questions, answers, and point values. A user is prompted with a question of how many questions they want, and then on input, loads one question with an input box to give the correct answer. A point count is kept, and correct answers add to the total. 
 
