@@ -4,3 +4,7 @@
   **Contact Information**
 <br/> Business Email: gaikwadrohan326@gmail.Com
 <br/> Phone Number: 858-280-9937
+## [Week 0 Review Ticket](https://github.com/RohanG326/trimester3personalrepo/issues/1)
+## [Week 1 Review Ticket](https://github.com/RohanG326/trimester3personalrepo/issues/2)
+## [Week 2 Review Ticket](https://github.com/RohanG326/trimester3personalrepo/issues/3)
+## [Algorithmic Final Review Ticket](https://github.com/RohanG326/trimester3personalrepo/issues/5)
