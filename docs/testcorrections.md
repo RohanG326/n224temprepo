@@ -20,3 +20,8 @@
 ![image](https://user-images.githubusercontent.com/89225438/164311162-53f4fe18-fb09-4973-abeb-406713e174e1.png)
 ### Question 50:
 ![image](https://user-images.githubusercontent.com/89225438/164311251-b0947d8e-51e5-4459-8072-3234c0393e83.png)
+
+## Finals Quiz 2
+![image](https://user-images.githubusercontent.com/89225438/165161684-e866bc3f-c872-4d48-85f8-840cc0f3c65d.png)
+### Question 42:
+![image](https://user-images.githubusercontent.com/89225438/165161784-1151e869-89ce-4fb4-bc94-c2dee8f9f3b3.png)
