@@ -25,3 +25,19 @@
 ![image](https://user-images.githubusercontent.com/89225438/165161684-e866bc3f-c872-4d48-85f8-840cc0f3c65d.png)
 ### Question 42:
 ![image](https://user-images.githubusercontent.com/89225438/165161784-1151e869-89ce-4fb4-bc94-c2dee8f9f3b3.png)
+
+## Finals Quiz 3
+![image](https://user-images.githubusercontent.com/89225438/166566673-2a51a8ee-50b5-43be-b0e4-8ff69c98d056.png)
+## Question 18
+![image](https://user-images.githubusercontent.com/89225438/166566400-7a3f66bf-03e1-419e-8872-5966be8f3e39.png)
+## Question 34
+![image](https://user-images.githubusercontent.com/89225438/166566492-80745e10-8b3c-45dd-912f-9c1494db98b6.png)
+## Question 36
+![image](https://user-images.githubusercontent.com/89225438/166566550-52ccf1cf-6290-4e8f-86fd-e55f0bf8a136.png)
+## Question 39
+![image](https://user-images.githubusercontent.com/89225438/166566781-e799fd3e-21a1-4c85-8ee5-3d9fda9bfd21.png)
+## Question 42
+![image](https://user-images.githubusercontent.com/89225438/166566859-7304bfeb-f303-4f72-879a-153d37e13606.png)
+## Question 48
+![image](https://user-images.githubusercontent.com/89225438/166566915-64e005f6-dee1-40d1-8af7-1b27933075d9.png)
+
