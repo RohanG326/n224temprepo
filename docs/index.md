@@ -10,3 +10,4 @@
 ## [Algorithmic Final Review Ticket](https://github.com/RohanG326/trimester3personalrepo/issues/5)
 ## [Study Plan](https://github.com/RohanG326/trimester3personalrepo/issues/7)
 ## [Proctored MC Week 1](https://github.com/RohanG326/trimester3personalrepo/issues/8)
+## [Proctored MC Week 2](https://github.com/RohanG326/trimester3personalrepo/issues/9)
